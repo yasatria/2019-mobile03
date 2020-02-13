@@ -4,3 +4,20 @@
     <solid android:color="#F96060" />
     <corners android:radius="5dp" />
 </shape>
+
+<Button
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_marginStart="24dp"
+android:layout_marginEnd="24dp"
+android:textSize="18sp"
+android:layout_marginBottom="200dp"
+android:background="@drawable/button_red"
+android:text="LOG IN"
+android:textColor="#FFFFFF"
+app:layout_constraintTop_toBottomOf="@id/forgot_password"
+android:layout_marginTop="80dp"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+    />
+
